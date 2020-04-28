@@ -1,9 +1,9 @@
-[*Back to Index*](index.md.html)
+[*Back to Index*](index.md)
 Colonists
 ==================
 Overview
 -------
-The Colonists are tied with various [gameplay](LuaFunctionDoc_Gameplay.md.html) mechanics. They initially come to Mars with Passenger Rockets and occupy Domes, which provide them with basic protection and the most needed resources for survival. Colonists automatically occupy residences within their Dome and search for workplaces in their Dome's range. There are a number of buildings that cannot operate without Colonists.
+The Colonists are tied with various [gameplay](LuaFunctionDoc_Gameplay.md) mechanics. They initially come to Mars with Passenger Rockets and occupy Domes, which provide them with basic protection and the most needed resources for survival. Colonists automatically occupy residences within their Dome and search for workplaces in their Dome's range. There are a number of buildings that cannot operate without Colonists.
 
 Every Colonist is defined by his or her name, age category, workplace Specialization, Traits, and Stats. These properties influence the behavior of the Colonists and can be in turn influenced by different game events, buildings, technologies and player actions.
 
@@ -58,7 +58,7 @@ end
 ~~~~
 Traits
 -------
-Traits are the Colonists' personal skills that describe specific parts of their behaviour or abilities. Each Colonist has multiple Traits that differentiate their individuallity and make them unique. Detailed modding information about the Traits can be found [here](ModItemTrait.md.html).
+Traits are the Colonists' personal skills that describe specific parts of their behaviour or abilities. Each Colonist has multiple Traits that differentiate their individuallity and make them unique. Detailed modding information about the Traits can be found [here](ModItemTrait.md).
 
 Stats
 -------
@@ -76,7 +76,7 @@ function OnMsg.DomeHitByMeteor(dome, meteor)
 	end
 end
 ~~~~
-    * Comfort represents the quality of the Colonist's life on Mars. Visited buildings improve Comfort up to their Service Comfort value, but Colonists will try to visit only buildings that correspond to their Interests (see [Traits](ModItemTrait.md.html)). Colonists are more inclined to have children at higher Comfort. Earthborn Colonists whose Comfort is depleted quit their job and will leave the planet at first opportunity (see Issues and special statuses).
+    * Comfort represents the quality of the Colonist's life on Mars. Visited buildings improve Comfort up to their Service Comfort value, but Colonists will try to visit only buildings that correspond to their Interests (see [Traits](ModItemTrait.md)). Colonists are more inclined to have children at higher Comfort. Earthborn Colonists whose Comfort is depleted quit their job and will leave the planet at first opportunity (see Issues and special statuses).
 ~~~~
 -- homeless Colonists have decreased Comfort 
 function OnMsg.ColonistStatusEffect(colonist, status_effect, bApply, now)
@@ -293,11 +293,11 @@ Thechnologies and Breakthroughs can greatly influence the colony and its Colonis
     * Project Phoenix - when a Colonist dies there's a chance that they are reconstructed as Youth with the same Traits.
     * Soylent Green - Bodies of dead Colonists are converted to Food.
 
-More information about the Research can be found [here](Research.md.html).
+More information about the Research can be found [here](Research.md).
 
 
 
-(insert footer.md.html here)
+(insert footer.md here)
 <!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style>
 <script src="markdeep.min.js"></script>
 <script src="https://casual-effects.com/markdeep/latest/markdeep.min.js"></script>

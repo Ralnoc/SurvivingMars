@@ -1,17 +1,17 @@
-[*Back to Index*](index.md.html)
+[*Back to Index*](index.md)
 # Research
 
 ## Overview
-The Research [gameplay](LuaFunctionDoc_Gameplay.md.html) mechanic allows the player to discover new technologies (techs) which unlock new buildings and options or provide various passive bonuses to different elements of the colony.
+The Research [gameplay](LuaFunctionDoc_Gameplay.md) mechanic allows the player to discover new technologies (techs) which unlock new buildings and options or provide various passive bonuses to different elements of the colony.
 
 Techs in the Research screen are arranged in 6 horizontal lists called fields. The first five fields represent different scientific branches. The sixth field is for Breakthrough techs which are randomized on each new game.
 
 All techs can be queued for research in the chosen by the player order. The queue has 4 available slots (const.ResearchQueueSize = 4) aside from the currently researched tech which is not considered to be in a queue.
 
-The [Technology](ModItemTechnology.md.html) mod item allows you to define a new technology.
+The [Technology](ModItemTechnology.md) mod item allows you to define a new technology.
 
 ## Unlocking Technologies
-At the start of a new game most techs are locked and only 1 or 2 starting techs are revealed as available for research per scientific field. The number can be defined from the [Mission Sponsor](ModItemMissionSponsor.md.html). The player could unlock new techs in two ways:
+At the start of a new game most techs are locked and only 1 or 2 starting techs are revealed as available for research per scientific field. The number can be defined from the [Mission Sponsor](ModItemMissionSponsor.md). The player could unlock new techs in two ways:
 
  - Researching a tech will unlock the next locked in the same field;
  - Some anomalies unlock new techs in some or all fields.
@@ -113,7 +113,7 @@ Techs have a "repeatable" property (false by default). If set to true this tech 
 
 
 
-(insert footer.md.html here)
+(insert footer.md here)
 <!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style>
 <script src="markdeep.min.js"></script>
 <script src="https://casual-effects.com/markdeep/latest/markdeep.min.js"></script>

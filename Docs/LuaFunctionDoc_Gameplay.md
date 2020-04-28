@@ -2,7 +2,7 @@
 
 ## Overview
 
-You can read more details about the [Research](Research.md.html) and [Colonists](Colonists.md.html) in their respective pages. Here are provided some useful functions for implementing gameplay effects. Modders could also create new [Technologies](ModItemTechnology.md.html), [Mission Sponsors](ModItemMissionSponsor.md.html) or [Commander Profiles](ModItemCommanderProfile.md.html).<br>
+You can read more details about the [Research](Research.md) and [Colonists](Colonists.md) in their respective pages. Here are provided some useful functions for implementing gameplay effects. Modders could also create new [Technologies](ModItemTechnology.md), [Mission Sponsors](ModItemMissionSponsor.md) or [Commander Profiles](ModItemCommanderProfile.md).<br>
 
 ## BoostTech
 
@@ -397,7 +397,7 @@ string lock_id
 
 
 
-(insert footer.md.html here)
+(insert footer.md here)
 <!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style>
 <script src="markdeep.min.js"></script>
 <script src="https://casual-effects.com/markdeep/latest/markdeep.min.js"></script>

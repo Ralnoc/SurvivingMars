@@ -5,16 +5,16 @@
 class overview...<br>
 ## Parent classes
 
-* [BaseBuilding](LuaFunctionDoc_BaseBuilding.md.html) 
-* [CObject](LuaFunctionDoc_CObject.md.html) 
+* [BaseBuilding](LuaFunctionDoc_BaseBuilding.md) 
+* [CObject](LuaFunctionDoc_CObject.md) 
 * ColorizableObject
 * FXObject
 * Holder
 * InitDone
-* [Object](LuaFunctionDoc_Object.md.html) 
+* [Object](LuaFunctionDoc_Object.md) 
 * PropertyObject
 * SyncObject
-* [TaskRequester](LuaFunctionDoc_TaskRequester.md.html) 
+* [TaskRequester](LuaFunctionDoc_TaskRequester.md) 
 * WaypointsObj
 ## Class properties
 
@@ -48,7 +48,7 @@ class overview...<br>
 
 
 
-(insert footer.md.html here)
+(insert footer.md here)
 <!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style>
 <script src="markdeep.min.js"></script>
 <script src="https://casual-effects.com/markdeep/latest/markdeep.min.js"></script>

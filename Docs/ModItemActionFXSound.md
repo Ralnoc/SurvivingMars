@@ -1,8 +1,8 @@
-[*Back to Index*](index.md.html)
+[*Back to Index*](index.md)
 
 ActionFXSound
 ==================
-This mod item creates and plays sound effects when an FX action is triggered. Inherits [ActionFX](ActionFX.md.html).
+This mod item creates and plays sound effects when an FX action is triggered. Inherits [ActionFX](ActionFX.md).
 
 Properties
 ------------------
@@ -36,7 +36,7 @@ OffsetDir
 AttachToObj
 : If the sound is attached to the object, it will be played whenever the camera gets close to the object, even if it was away during the creation of the object. There can be only one attached sound to an object at a time. Attaching a new one removes the active one, so this is best saved for a single sound that plays permanently.
 
-(insert footer.md.html here)
+(insert footer.md here)
 <!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style>
 <script src="markdeep.min.js"></script>
 <script src="https://casual-effects.com/markdeep/latest/markdeep.min.js"></script>

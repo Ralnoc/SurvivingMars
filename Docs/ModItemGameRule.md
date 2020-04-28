@@ -1,10 +1,10 @@
-[*Back to Index*](index.md.html)
+[*Back to Index*](index.md)
 Game Rule
 =================
 
 This mod item allows you to define a game rule. It can be selected in the new game menu and has a significant effect over gameplay. 
 
-Gameplay effects for the game rules can be defiened using [Effects](ModItemEffect.md.html).
+Gameplay effects for the game rules can be defiened using [Effects](ModItemEffect.md).
 
 Properties
 ----------
@@ -35,7 +35,7 @@ Param 1 (self.param1)
 Param1_desc (self.param1_desc)
 : This is used to describe what role does the parameter have in this game rule.
 
-(insert footer.md.html here)
+(insert footer.md here)
 <!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style>
 <script src="markdeep.min.js"></script>
 <script src="https://casual-effects.com/markdeep/latest/markdeep.min.js"></script>

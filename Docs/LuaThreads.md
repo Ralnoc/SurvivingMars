@@ -52,7 +52,7 @@ Reference
 :	If awaiting wakeup, *thread* is scheduled to execute as soon as possible and the function returns true. If the thread is invalid or not awaiting wakeup the function returns nothing.
 
 ***timeout_left, ...* = WaitMsg(*message*, *timeout*)**
-:	Suspends the calling thread until the specified message is sent. Returns the remaining time (or true if no timeout) followed by the parameters passed to the *Msg* function (see [Messages](LuaMessages.md.html)) which led to the thread being scheduled. In case of a timeout returns nothing.
+:	Suspends the calling thread until the specified message is sent. Returns the remaining time (or true if no timeout) followed by the parameters passed to the *Msg* function (see [Messages](LuaMessages.md)) which led to the thread being scheduled. In case of a timeout returns nothing.
 
 ***time* = now()**
 :	Can be called only within a thread. Returns the time of the current thread (either game time or real time).
@@ -130,7 +130,7 @@ end
 
 
 
-(insert footer.md.html here)
+(insert footer.md here)
 <!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style>
 <script src="markdeep.min.js"></script>
 <script src="https://casual-effects.com/markdeep/latest/markdeep.min.js"></script>

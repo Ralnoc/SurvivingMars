@@ -1,12 +1,12 @@
-[*Back to Index*](index.md.html)
+[*Back to Index*](index.md)
 Mission Sponsor
 ===============
 
-This mod item allows you to define a mission sponsor. It can be selected in the new game menu and has a significant effect over gameplay. [Here](LuaFunctionDoc_Gameplay.md.html) can be found some useful functions for creating effects.
+This mod item allows you to define a mission sponsor. It can be selected in the new game menu and has a significant effect over gameplay. [Here](LuaFunctionDoc_Gameplay.md) can be found some useful functions for creating effects.
 
-Gameplay effects for the Mission Sponsor can be defined using [Effects](ModItemEffect.md.html). They can influence global consts in different ways, unlock various gameplay items at game start and impact player structures at different stages of creation. Game effects are the most conveninent way to implement functionality for your Mission Sponsor. 
+Gameplay effects for the Mission Sponsor can be defined using [Effects](ModItemEffect.md). They can influence global consts in different ways, unlock various gameplay items at game start and impact player structures at different stages of creation. Game effects are the most conveninent way to implement functionality for your Mission Sponsor. 
 
-Misson Sponsors can be tested easily in the **Mod Editor** if it is the ["currently edited"](index.md.html#welcometomoddingsurvivingmars!/modeditor) mod.
+Misson Sponsors can be tested easily in the **Mod Editor** if it is the ["currently edited"](index.md#welcometomoddingsurvivingmars!/modeditor) mod.
 To do this, you need to:
  - Enable your mod in the **Mod Manager**.
  - Have an unpacked version of your mod in your *`%AppData%/Surviving Mars/Mods`* folder.
@@ -93,7 +93,7 @@ Filter (self.filter)
 : Lua expression that will be evaluated to check whether to show this mission sponsor in game combo.
 
 Game Apply (function self:game_apply(city))
-: Code that is executed at game start. Use functions to implement conditional mission sponsor effects which cannot be defined via [Effects](ModItemEffect.md.html).
+: Code that is executed at game start. Use functions to implement conditional mission sponsor effects which cannot be defined via [Effects](ModItemEffect.md).
 
 Here is an example of a very generous sponsor
 ~~~~~~~~~ Lua
@@ -115,7 +115,7 @@ Banner Entities Postfix (self.banners_name) *Space Race only*
 : The three banner name prefixes are "Flag_01_", "Flag_02_" and "Flag_03_", which is useful when creating custom sponsor banners.
 : When this property has it's default value, the sponsor ID is used instead.
 
-(insert footer.md.html here)
+(insert footer.md here)
 <!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style>
 <script src="markdeep.min.js"></script>
 <script src="https://casual-effects.com/markdeep/latest/markdeep.min.js"></script>

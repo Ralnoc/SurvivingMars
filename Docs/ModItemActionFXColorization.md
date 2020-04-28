@@ -1,8 +1,8 @@
-[*Back to Index*](index.md.html)
+[*Back to Index*](index.md)
 
 ActionFXColorization
 ==================
-This mod item colorizes a target object when an FX action is triggered. Inherits [ActionFX](ActionFX.md.html).
+This mod item colorizes a target object when an FX action is triggered. Inherits [ActionFX](ActionFX.md).
 
 Properties
 ------------------
@@ -18,7 +18,7 @@ Source
 RealTime
 : Whether the colorization should happen in real time.
 
-(insert footer.md.html here)
+(insert footer.md here)
 <!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style>
 <script src="markdeep.min.js"></script>
 <script src="https://casual-effects.com/markdeep/latest/markdeep.min.js"></script>

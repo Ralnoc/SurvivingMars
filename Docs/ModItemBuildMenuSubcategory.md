@@ -1,4 +1,4 @@
-[*Back to Index*](index.md.html)
+[*Back to Index*](index.md)
 Build Menu Subcategory
 ======================
 
@@ -49,7 +49,7 @@ Function to execute when clicking the subcategory button.
 The default will open the build menu subcategory, but it could do something completely different, like opening some other interface, activating an ingame action or anything else.
 
 
-(insert footer.md.html here)
+(insert footer.md here)
 <!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style>
 <script src="markdeep.min.js"></script>
 <script src="https://casual-effects.com/markdeep/latest/markdeep.min.js"></script>

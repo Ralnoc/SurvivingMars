@@ -1,4 +1,4 @@
-[*Back to Index*](index.md.html)
+[*Back to Index*](index.md)
 Radio Station
 =============
 
@@ -25,7 +25,7 @@ Silence between tracks
 : This is the pause made between tracks (in seconds) by the default play logic.
 
 function Play(self)
-: This function performs the track selection and playback of the tracks in the radio station - leave blank for the default behaviour that plays the tracks randomly. It is started in its own [Lua thread](LuaThreads.md.html) and should run an infinite loop, choosing and playing tracks forever. It will be killed externally when the user selects another radio station. The list of tracks can be accessed using *self.track*.
+: This function performs the track selection and playback of the tracks in the radio station - leave blank for the default behaviour that plays the tracks randomly. It is started in its own [Lua thread](LuaThreads.md) and should run an infinite loop, choosing and playing tracks forever. It will be killed externally when the user selects another radio station. The list of tracks can be accessed using *self.track*.
 
 :The default *play* function distinguishes between three types of files - Blurb, Talks and Commercials. Everything else found in the tracks folder is percieved as a song. For a track to be perceived as a commercial, the name has to contain "_ Commercials_ ". Similarly, for Blurb and Talks the name has to include "_ Blurb_ " or "_ Talks_ " respectively, as well as indeces in the form of "_ [index1]_ [index2]". For example, a file containing a talk might be named like that - "NewWaveRadio_Talk_8_2.opus". The order of playing the tracks is, generelly speaking, as follows: a small random number of songs followed by a blurb and a commercial, then again a small number of songs, followed by a talk. Note: you are not required to have any Commercials, Talks or Blurbs to use the default *play* function.
 
@@ -81,7 +81,7 @@ end
 ~~~~~~~~~
 
 
-(insert footer.md.html here)
+(insert footer.md here)
 <!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style>
 <script src="markdeep.min.js"></script>
 <script src="https://casual-effects.com/markdeep/latest/markdeep.min.js"></script>

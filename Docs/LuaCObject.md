@@ -222,7 +222,7 @@ States/animations are authored with string names. The functions in Lua can refer
 
 There is a set of simpler functions allowing playing of one state/animation at a time - SetState, PlayState, etc.; and a more complex but powerful one allowing for blending several animations with weights.
 
-For a list of functions, see the [CObject functions reference](LuaFunctionDoc_CObject.md.html).
+For a list of functions, see the [CObject functions reference](LuaFunctionDoc_CObject.md).
 
 Spots
 -----
@@ -243,7 +243,7 @@ Attachment happens at [*spots*] of the parent object's entity, relative position
 
 When an object is detached from its parent, it remains at the same position/orientation it was at the moment of attachment.
 
-Here are some of the related functions; for a more complete list, see [CObject functions reference](LuaFunctionDoc_CObject.md.html).
+Here are some of the related functions; for a more complete list, see [CObject functions reference](LuaFunctionDoc_CObject.md).
 ~~~~ Lua
   parent:Attach(child, spot_index)
   child:Detach()
@@ -275,7 +275,7 @@ hex_shape
 
 
 
-(insert footer.md.html here)
+(insert footer.md here)
 <!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style>
 <script src="markdeep.min.js"></script>
 <script src="https://casual-effects.com/markdeep/latest/markdeep.min.js"></script>

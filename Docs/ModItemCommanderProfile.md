@@ -1,12 +1,12 @@
-[*Back to Index*](index.md.html)
+[*Back to Index*](index.md)
 Commander Profile
 =================
 
-This mod item allows you to define a commander profile. It can be selected in the new game menu and has a significant effect over gameplay. Each commander profile has some specific properties and game effects. [Here](LuaFunctionDoc_Gameplay.md.html) can be found some useful functions for creating effects.
+This mod item allows you to define a commander profile. It can be selected in the new game menu and has a significant effect over gameplay. Each commander profile has some specific properties and game effects. [Here](LuaFunctionDoc_Gameplay.md) can be found some useful functions for creating effects.
 
-Gameplay effects for the Commander Profile can be defined using [Effects](ModItemEffect.md.html). They can influence global consts in different ways, unlock various gameplay items at game start and impact player structures at different stages of creation. Game effects are the most conveninent way to implement functionality for your Commander Profile. 
+Gameplay effects for the Commander Profile can be defined using [Effects](ModItemEffect.md). They can influence global consts in different ways, unlock various gameplay items at game start and impact player structures at different stages of creation. Game effects are the most conveninent way to implement functionality for your Commander Profile. 
 
-Commander Profiles can be tested easily in the **Mod Editor** if it is the ["currently edited"](index.md.html#welcometomoddingsurvivingmars!/modeditor) mod.
+Commander Profiles can be tested easily in the **Mod Editor** if it is the ["currently edited"](index.md#welcometomoddingsurvivingmars!/modeditor) mod.
 To do this, you need to:
  - Enable your mod in the **Mod Manager**.
  - Have an unpacked version of your mod in your *`%AppData%/Surviving Mars/Mods`* folder.
@@ -42,9 +42,9 @@ Parameters (self.param1, self.param2, self.param3, self.param4, self.param5)
 : Properties that contain number values - use them in additional code in the Filter and Game Apply properties, if necessary.
 
 Game Apply (function self:game_apply(city))
-: Code that is executed at game start. Use functions to implement conditional command profile effects which cannot be defined via [Effects](ModItemEffect.md.html).
+: Code that is executed at game start. Use functions to implement conditional command profile effects which cannot be defined via [Effects](ModItemEffect.md).
 
-(insert footer.md.html here)
+(insert footer.md here)
 <!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style>
 <script src="markdeep.min.js"></script>
 <script src="https://casual-effects.com/markdeep/latest/markdeep.min.js"></script>

@@ -5,18 +5,18 @@
 Objects from this type are able to attach a preset of objects on their creation based on their spot annotations.<br>
 ## Parent classes
 
-* [CObject](LuaFunctionDoc_CObject.md.html) 
+* [CObject](LuaFunctionDoc_CObject.md) 
 * ColorizableObject
-* [ComponentAttach](LuaFunctionDoc_ComponentAttach.md.html) 
+* [ComponentAttach](LuaFunctionDoc_ComponentAttach.md) 
 * FXObject
 * InitDone
-* [Object](LuaFunctionDoc_Object.md.html) 
+* [Object](LuaFunctionDoc_Object.md) 
 * PropertyObject
 
 
 
 
-(insert footer.md.html here)
+(insert footer.md here)
 <!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style>
 <script src="markdeep.min.js"></script>
 <script src="https://casual-effects.com/markdeep/latest/markdeep.min.js"></script>

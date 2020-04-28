@@ -1,4 +1,4 @@
-[*Back to Index*](index.md.html)
+[*Back to Index*](index.md)
 Animal
 ======
 
@@ -67,7 +67,7 @@ Air consumption (Pasture animals only)
 Infopanel position (Pasture animals only)
 : A number which indicates the order of the animals in ranch's infopanel.
 
-(insert footer.md.html here)
+(insert footer.md here)
 <!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style>
 <script src="markdeep.min.js"></script>
 <script src="https://casual-effects.com/markdeep/latest/markdeep.min.js"></script>

@@ -22,7 +22,7 @@ This effect could be both desirable and unexpected.
 
 The message handlers are executed in the order of registration. 
 Therefore message handlers registered at file scope will be executed 
-in the order of file execution (see [Lua startup](LuaStartup.md.html)). 
+in the order of file execution (see [Lua startup](LuaStartup.md)). 
 
 It is possible to register message handlers at any time and in particular after 
 the startup process. Such handlers are executed after the handlers registered 
@@ -39,7 +39,7 @@ Reference
 :	Registers a message handler function which will be executed whenever *message* is sent. The function receives the parameters passed to the Msg function at the sending site. You can register as many handlers for the same message as you want.
 
 **WaitMsg(*message*, timeout)**
-:	Suspends the calling thread (see [Threads](LuaThreads.md.html)) until *message* is sent. Returns remaining time (or true in case there was no timeout) followed by the parameters passed to the Msg function which led to the thread being resumed. If the function times out it returns nothing.
+:	Suspends the calling thread (see [Threads](LuaThreads.md)) until *message* is sent. Returns remaining time (or true in case there was no timeout) followed by the parameters passed to the Msg function which led to the thread being resumed. If the function times out it returns nothing.
 
 **MsgClear(*message*)**
 :	Removes all registered message handlers for *message*. It is used to free memory when it is certain that *message* will never be sent again. (Used for the messages sent during the startup process.) Note that this removes *all* message handlers - it's not possible to remove just a single handler.
@@ -252,7 +252,7 @@ Msg("TechResearched", tech_id, city, first_time)
 
 
 
-(insert footer.md.html here)
+(insert footer.md here)
 <!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style>
 <script src="markdeep.min.js"></script>
 <script src="https://casual-effects.com/markdeep/latest/markdeep.min.js"></script>

@@ -1,4 +1,4 @@
-[*Back to Index*](index.md.html)
+[*Back to Index*](index.md)
 Options
 =======
 
@@ -61,12 +61,12 @@ Saving a mod containing Option Mod Items will always trigger Lua reloading, whic
 
 Using mod options in Lua
 -----------------------------
-To access the current options you can use the global table `CurrentModOptions` (see [Lua values](ModItemCode.md.html#luavalues)).
+To access the current options you can use the global table `CurrentModOptions` (see [Lua values](ModItemCode.md#luavalues)).
 An empty table will be present, even if you don't have options.
 Note that this variable will have a unique value, relevant only to the mod accessing it (similar to `CurrentModPath`).
 Changing the option values using `CurrentModOptions` is discouraged.
 
-Every time the player clicks "Apply" in the mod options screen, the `ApplyModOptions` message will be triggered (see [Messages](LuaFunctionDoc_Msg.md.html#applymodoptions)).
+Every time the player clicks "Apply" in the mod options screen, the `ApplyModOptions` message will be triggered (see [Messages](LuaFunctionDoc_Msg.md#applymodoptions)).
 It will carry a mod ID, which can be used to identify which options have been modified.
 You can filter out modifications to other mods using this ID and only react to changes to your mod.
 Depending on your mod, you could just ignore the ID and always apply your options.
@@ -86,7 +86,7 @@ Options not appearing
 Options that don't have assigned identifiers (`Id`) are invalid and will not be used.
 
 
-(insert footer.md.html here)
+(insert footer.md here)
 <!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style>
 <script src="markdeep.min.js"></script>
 <script src="https://casual-effects.com/markdeep/latest/markdeep.min.js"></script>

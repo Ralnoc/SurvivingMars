@@ -1,8 +1,8 @@
-[*Back to Index*](index.md.html)
+[*Back to Index*](index.md)
 Tech Field
 ===============
 
-This mod item allows you to define a new technology field. Information about existing technologies can be found [here](LuaFunctionDoc_TechnologyNames.md.html).
+This mod item allows you to define a new technology field. Information about existing technologies can be found [here](LuaFunctionDoc_TechnologyNames.md).
 
 Properties
 ----------
@@ -28,7 +28,7 @@ TechFields
 : List of all Tech Fields by name.
 
 
-(insert footer.md.html here)
+(insert footer.md here)
 <!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style>
 <script src="markdeep.min.js"></script>
 <script src="https://casual-effects.com/markdeep/latest/markdeep.min.js"></script>

@@ -2,42 +2,42 @@
 
 ## Overview
 
-Building derived [building template](ModItemBuildingTemplate.md.html) class. Handles water storage.<br>
+Building derived [building template](ModItemBuildingTemplate.md) class. Handles water storage.<br>
 ## Parent classes
 
-* [AutoAttachObject](LuaFunctionDoc_AutoAttachObject.md.html) 
-* [BaseBuilding](LuaFunctionDoc_BaseBuilding.md.html) 
-* [Building](LuaFunctionDoc_Building.md.html) 
+* [AutoAttachObject](LuaFunctionDoc_AutoAttachObject.md) 
+* [BaseBuilding](LuaFunctionDoc_BaseBuilding.md) 
+* [Building](LuaFunctionDoc_Building.md) 
 * BuildingVisualDustComponent
-* [CObject](LuaFunctionDoc_CObject.md.html) 
+* [CObject](LuaFunctionDoc_CObject.md) 
 * CityObject
 * ClassTemplate
 * ClassTemplateObject
 * ColorizableObject
-* [ComponentAttach](LuaFunctionDoc_ComponentAttach.md.html) 
+* [ComponentAttach](LuaFunctionDoc_ComponentAttach.md) 
 * ComponentCustomData
-* [Constructable](LuaFunctionDoc_Constructable.md.html) 
-* [Demolishable](LuaFunctionDoc_Demolishable.md.html) 
+* [Constructable](LuaFunctionDoc_Constructable.md) 
+* [Demolishable](LuaFunctionDoc_Demolishable.md) 
 * FXObject
-* [GridObject](LuaFunctionDoc_GridObject.md.html) 
-* [HasConsumption](LuaFunctionDoc_HasConsumption.md.html) 
+* [GridObject](LuaFunctionDoc_GridObject.md) 
+* [HasConsumption](LuaFunctionDoc_HasConsumption.md) 
 * Holder
-* [InfopanelObj](LuaFunctionDoc_InfopanelObj.md.html) 
+* [InfopanelObj](LuaFunctionDoc_InfopanelObj.md) 
 * InitDone
 * LifeSupportGridObject
 * Modifiable
 * NightLightObject
-* [Object](LuaFunctionDoc_Object.md.html) 
-* [PinnableObject](LuaFunctionDoc_PinnableObject.md.html) 
+* [Object](LuaFunctionDoc_Object.md) 
+* [PinnableObject](LuaFunctionDoc_PinnableObject.md) 
 * PropertyObject
 * Renamable
-* [RequiresMaintenance](LuaFunctionDoc_RequiresMaintenance.md.html) 
-* [Shapeshifter](LuaFunctionDoc_Shapeshifter.md.html) 
-* [SkinChangeable](LuaFunctionDoc_SkinChangeable.md.html) 
+* [RequiresMaintenance](LuaFunctionDoc_RequiresMaintenance.md) 
+* [Shapeshifter](LuaFunctionDoc_Shapeshifter.md) 
+* [SkinChangeable](LuaFunctionDoc_SkinChangeable.md) 
 * SupplyGridObject
 * SyncObject
-* [TaskRequester](LuaFunctionDoc_TaskRequester.md.html) 
-* [UpgradableBuilding](LuaFunctionDoc_UpgradableBuilding.md.html) 
+* [TaskRequester](LuaFunctionDoc_TaskRequester.md) 
+* [UpgradableBuilding](LuaFunctionDoc_UpgradableBuilding.md) 
 * WaypointsObj
 ## Class properties
 
@@ -868,7 +868,7 @@ Building derived [building template](ModItemBuildingTemplate.md.html) class. Han
 
 
 
-(insert footer.md.html here)
+(insert footer.md here)
 <!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style>
 <script src="markdeep.min.js"></script>
 <script src="https://casual-effects.com/markdeep/latest/markdeep.min.js"></script>

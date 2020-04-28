@@ -2,23 +2,23 @@
 
 ## Overview
 
-Tha TaskRequester class helps manage drone [TaskRequests](LuaFunctionDoc_TaskRequest.md.html).<br>
+Tha TaskRequester class helps manage drone [TaskRequests](LuaFunctionDoc_TaskRequest.md).<br>
 ## Parent classes
 
-* [BaseBuilding](LuaFunctionDoc_BaseBuilding.md.html) 
-* [CObject](LuaFunctionDoc_CObject.md.html) 
+* [BaseBuilding](LuaFunctionDoc_BaseBuilding.md) 
+* [CObject](LuaFunctionDoc_CObject.md) 
 * ColorizableObject
 * FXObject
 * Holder
 * InitDone
-* [Object](LuaFunctionDoc_Object.md.html) 
+* [Object](LuaFunctionDoc_Object.md) 
 * PropertyObject
 * SyncObject
 * WaypointsObj
 
 ## AddDemandRequest
 
-Creates a [TaskRequest](LuaFunctionDoc_TaskRequest.md.html) with the given properties, and adds it to the task_requests table so it is visible to DroneControl objects. The building needs to re-connect to DroneControl objects if the state of the task_requests table changes. Alternatively, requests may be created before connecting, in the CreateTaskRequests callback for example. This function creates a demand request and automatically adds the flags designating it as such.<br>
+Creates a [TaskRequest](LuaFunctionDoc_TaskRequest.md) with the given properties, and adds it to the task_requests table so it is visible to DroneControl objects. The building needs to re-connect to DroneControl objects if the state of the task_requests table changes. Alternatively, requests may be created before connecting, in the CreateTaskRequests callback for example. This function creates a demand request and automatically adds the flags designating it as such.<br>
 <br>
 
 bool **AddDemandRequest**(string resource, int amount[, int flags, int max_units])
@@ -40,7 +40,7 @@ _returns_ TaskRequest result
 
 ## AddSupplyRequest
 
-Creates a [TaskRequest](LuaFunctionDoc_TaskRequest.md.html) with the given properties, and adds it to the task_requests table so it is visible to DroneControl objects. The building needs to re-connect to DroneControl objects if the state of the task_requests table changes. Alternatively, requests may be created before connecting, in the CreateTaskRequests callback for example. This function creates a supply request and automatically adds the flags designating it as such.<br>
+Creates a [TaskRequest](LuaFunctionDoc_TaskRequest.md) with the given properties, and adds it to the task_requests table so it is visible to DroneControl objects. The building needs to re-connect to DroneControl objects if the state of the task_requests table changes. Alternatively, requests may be created before connecting, in the CreateTaskRequests callback for example. This function creates a supply request and automatically adds the flags designating it as such.<br>
 <br>
 
 bool **AddSupplyRequest**(string resource, int amount[, int flags, int max_units])
@@ -62,7 +62,7 @@ _returns_ TaskRequest result
 
 ## AddWorkRequest
 
-Creates a [TaskRequest](LuaFunctionDoc_TaskRequest.md.html) with the given properties, and adds it to the task_requests table so it is visible to DroneControl objects. The building needs to re-connect to DroneControl objects if the state of the task_requests table changes. Alternatively, requests may be created before connecting, in the CreateTaskRequests callback for example. This function creates a work request and automatically adds the flags designating it as such.<br>
+Creates a [TaskRequest](LuaFunctionDoc_TaskRequest.md) with the given properties, and adds it to the task_requests table so it is visible to DroneControl objects. The building needs to re-connect to DroneControl objects if the state of the task_requests table changes. Alternatively, requests may be created before connecting, in the CreateTaskRequests callback for example. This function creates a work request and automatically adds the flags designating it as such.<br>
 <br>
 
 TaskRequest **AddWorkRequest**(string resource, int amount[, int flags, int max_units])
@@ -84,7 +84,7 @@ _returns_ TaskRequest result
 
 ## CreateResourceRequests
 
-TaskRequester callback called in the object's game init thread. Useful for initializing the object's [TaskRequests](LuaFunctionDoc_TaskRequest.md.html).<br>
+TaskRequester callback called in the object's game init thread. Useful for initializing the object's [TaskRequests](LuaFunctionDoc_TaskRequest.md).<br>
 <br>
 
 void **CreateResourceRequests**()
@@ -92,7 +92,7 @@ void **CreateResourceRequests**()
 
 
 
-(insert footer.md.html here)
+(insert footer.md here)
 <!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style>
 <script src="markdeep.min.js"></script>
 <script src="https://casual-effects.com/markdeep/latest/markdeep.min.js"></script>

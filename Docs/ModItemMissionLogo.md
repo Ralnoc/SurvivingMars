@@ -1,4 +1,4 @@
-[*Back to Index*](index.md.html)
+[*Back to Index*](index.md)
 Mission Logo
 ============
 
@@ -29,7 +29,7 @@ Now select "New MissionLogo" from the New Item Menu.
 4. Click on the "..." next to the "Image" line, navigate to your mod folder (you can click the second button in the Mod Editor window toolbar to find it) and choose an appropriate image to be displayed in the first "New Game" screen. Usually logos in that screen look different from the decals on buildings - see the provided sample asset on Mission Logos.
 5. Click "Save" and return to the main menu to test the logo in the "New Game" screens.
 
-(insert footer.md.html here)
+(insert footer.md here)
 <!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style>
 <script src="markdeep.min.js"></script>
 <script src="https://casual-effects.com/markdeep/latest/markdeep.min.js"></script>

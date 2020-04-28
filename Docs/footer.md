@@ -4,7 +4,7 @@
 <div class="footer">*Thank you for creating mods for Surviving Mars! If you have questions or encounter any problems, please contact us at mars-modding@haemimontgames.com.* </div>
 <div class="sticky"><a href="#toc1">^ *Back to top* ^</a>
 
-[<< *Back to Index*](index.md.html)</div>
+[<< *Back to Index*](index.md)</div>
 <link rel="stylesheet" type="text/css" href="Style.css" />
 <!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style>
 <script src="markdeep.min.js"></script>

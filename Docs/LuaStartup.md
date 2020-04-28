@@ -28,7 +28,7 @@ Infinite loop detection is disabled while inside `ReloadLua`.
 
 Sequence of events when reloading:
 1. Mount Lua folders.
-2. Trigger the `ReloadLua` message (see [Msg](LuaMessages.md.html#reference)).
+2. Trigger the `ReloadLua` message (see [Msg](LuaMessages.md#reference)).
 3. Run `autorun.lua`.
 4. Trigger the `Autorun` message.
 5. Unmount Lua folders.
@@ -50,7 +50,7 @@ The stages of `autorun.lua` are as follows:
 
 Msg
 ---
-The first thing to initialize is the [Message](LuaMessages.md.html) system.
+The first thing to initialize is the [Message](LuaMessages.md) system.
 After this step, anyone can fully utilize it, by registering to and receiving messages.
 When initializing it, any previously registered message handler will be dropped
 
@@ -115,7 +115,7 @@ Finally, and only on first load:
 2. Account storage will be loaded.
 3. The mod localization tables will be loaded. Those are the files listed in `loctables` of each mod metadata.
 
-(insert footer.md.html here)
+(insert footer.md here)
 <!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style>
 <script src="markdeep.min.js"></script>
 <script src="https://casual-effects.com/markdeep/latest/markdeep.min.js"></script>

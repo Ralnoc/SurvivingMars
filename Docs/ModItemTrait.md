@@ -1,4 +1,4 @@
-[*Back to Index*](index.md.html)
+[*Back to Index*](index.md)
 Trait
 ===============
 Traits are attributes that describe specific parts of the Colonists' behaviour or abilities.  
@@ -102,7 +102,7 @@ Modified property (self.modify_property)
 : Colonist property that will be modified.
 
 Modification amount/percent (self.modify_amount/self.modify_percent)
-: Modifier properties - see [Modifier documentation](LuaFunctionDoc_Consts.md.html) for details on modifiers.
+: Modifier properties - see [Modifier documentation](LuaFunctionDoc_Consts.md) for details on modifiers.
 
 Infopanel effect text (self.infopanel_effect_text)
 : The text that is used in infopanel for describing the Trait effect over any of the Colonist stats.
@@ -173,11 +173,11 @@ for _, dome in ipairs(domes or empty_table) do
 end
 ~~~~
 
-You can also check how to [*LockTrait*](LuaFunctionDoc_Gameplay.md.html), [*UnlockTrait*](LuaFunctionDoc_Gameplay.md.html) and [*IsTraitAvailable*](LuaFunctionDoc_Gameplay.md.html).
+You can also check how to [*LockTrait*](LuaFunctionDoc_Gameplay.md), [*UnlockTrait*](LuaFunctionDoc_Gameplay.md) and [*IsTraitAvailable*](LuaFunctionDoc_Gameplay.md).
 
 
 
-(insert footer.md.html here)
+(insert footer.md here)
 <!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style>
 <script src="markdeep.min.js"></script>
 <script src="https://casual-effects.com/markdeep/latest/markdeep.min.js"></script>

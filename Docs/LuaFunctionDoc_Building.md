@@ -2,47 +2,47 @@
 
 ## Overview
 
-Building is the base template class associated with [building templates](ModItemBuildingTemplate.md.html). The template must define a template class type which is then the type of the object that would be instantiated when a template object is created. Specifically, for [building templates](ModItemBuildingTemplate.md.html) this class type may be Building or any Building derived class. The template class should implement all possible functionality of the template object, while the template itself defines its initialization properties.<br>
+Building is the base template class associated with [building templates](ModItemBuildingTemplate.md). The template must define a template class type which is then the type of the object that would be instantiated when a template object is created. Specifically, for [building templates](ModItemBuildingTemplate.md) this class type may be Building or any Building derived class. The template class should implement all possible functionality of the template object, while the template itself defines its initialization properties.<br>
 <br>
 The Building class is the base template functionality for all buildings in the game and holds a large part of the common functionality of all buildings. A large part of it comes from its parents, so consider examining them to glimpse further into what is readily available in it.<br>
 <br>
-Notable children: [ElectricityProducer](LuaFunctionDoc_ElectricityProducer.md.html), [ElectricityConsumer](LuaFunctionDoc_ElectricityConsumer.md.html), [ElectricityStorage](LuaFunctionDoc_ElectricityStorage.md.html), [WaterProducer](LuaFunctionDoc_WaterProducer.md.html), [AirProducer](LuaFunctionDoc_AirProducer.md.html), [LifeSupportConsumer](LuaFunctionDoc_LifeSupportConsumer.md.html), [AirStorage](LuaFunctionDoc_AirStorage.md.html), [WaterStorage](LuaFunctionDoc_WaterStorage.md.html), [StorageWithIndicator](LuaFunctionDoc_StorageWithIndicator.md.html).<br>
+Notable children: [ElectricityProducer](LuaFunctionDoc_ElectricityProducer.md), [ElectricityConsumer](LuaFunctionDoc_ElectricityConsumer.md), [ElectricityStorage](LuaFunctionDoc_ElectricityStorage.md), [WaterProducer](LuaFunctionDoc_WaterProducer.md), [AirProducer](LuaFunctionDoc_AirProducer.md), [LifeSupportConsumer](LuaFunctionDoc_LifeSupportConsumer.md), [AirStorage](LuaFunctionDoc_AirStorage.md), [WaterStorage](LuaFunctionDoc_WaterStorage.md), [StorageWithIndicator](LuaFunctionDoc_StorageWithIndicator.md).<br>
 <br>
-All buildings have a working state represented in the "working" bool member. Don't confuse with "ui_working" which is the state of the infopanel working button. There are two major groups of reasons to prevent a building from working. The IsWorkPossible checks if the game rules allow for the building to work. For example, for a building that is currently not supplied with electricity, but requires it, IsWorkPossible would return false. The IsWorkPermitted function returns the state of the second major group of reasons that prevent a building from working - user interaction. If the user forbids the building from working in any way this function should return false. For example, the infopanel button to stop a building from working is associated with IsWorkPermitted. There can be miriads of reasons for a building to not work, the reasons can be polled with GetNotWorkingReason which returns a humanly readable (not localized) string. The family of functions dealing with the working state of a building can be found in the [BaseBuilding](LuaFunctionDoc_BaseBuilding.md.html).<br>
+All buildings have a working state represented in the "working" bool member. Don't confuse with "ui_working" which is the state of the infopanel working button. There are two major groups of reasons to prevent a building from working. The IsWorkPossible checks if the game rules allow for the building to work. For example, for a building that is currently not supplied with electricity, but requires it, IsWorkPossible would return false. The IsWorkPermitted function returns the state of the second major group of reasons that prevent a building from working - user interaction. If the user forbids the building from working in any way this function should return false. For example, the infopanel button to stop a building from working is associated with IsWorkPermitted. There can be miriads of reasons for a building to not work, the reasons can be polled with GetNotWorkingReason which returns a humanly readable (not localized) string. The family of functions dealing with the working state of a building can be found in the [BaseBuilding](LuaFunctionDoc_BaseBuilding.md).<br>
 <br>
-Buildings can have up to three upgrades aquired and applied throughout the game session. The relevant properties needed to define them on per [building template](ModItemBuildingTemplate.md.html) basis are located in the [UpgradableBuilding](LuaFunctionDoc_UpgradableBuilding.md.html) parent class, and can be used directly in a template definition to spec upgrades. Functions dealing with upgrades are located in the Building class.<br>
+Buildings can have up to three upgrades aquired and applied throughout the game session. The relevant properties needed to define them on per [building template](ModItemBuildingTemplate.md) basis are located in the [UpgradableBuilding](LuaFunctionDoc_UpgradableBuilding.md) parent class, and can be used directly in a template definition to spec upgrades. Functions dealing with upgrades are located in the Building class.<br>
 ## Parent classes
 
-* [AutoAttachObject](LuaFunctionDoc_AutoAttachObject.md.html) 
-* [BaseBuilding](LuaFunctionDoc_BaseBuilding.md.html) 
+* [AutoAttachObject](LuaFunctionDoc_AutoAttachObject.md) 
+* [BaseBuilding](LuaFunctionDoc_BaseBuilding.md) 
 * BuildingVisualDustComponent
-* [CObject](LuaFunctionDoc_CObject.md.html) 
+* [CObject](LuaFunctionDoc_CObject.md) 
 * CityObject
 * ClassTemplate
 * ClassTemplateObject
 * ColorizableObject
-* [ComponentAttach](LuaFunctionDoc_ComponentAttach.md.html) 
+* [ComponentAttach](LuaFunctionDoc_ComponentAttach.md) 
 * ComponentCustomData
-* [Constructable](LuaFunctionDoc_Constructable.md.html) 
-* [Demolishable](LuaFunctionDoc_Demolishable.md.html) 
+* [Constructable](LuaFunctionDoc_Constructable.md) 
+* [Demolishable](LuaFunctionDoc_Demolishable.md) 
 * FXObject
-* [GridObject](LuaFunctionDoc_GridObject.md.html) 
-* [HasConsumption](LuaFunctionDoc_HasConsumption.md.html) 
+* [GridObject](LuaFunctionDoc_GridObject.md) 
+* [HasConsumption](LuaFunctionDoc_HasConsumption.md) 
 * Holder
-* [InfopanelObj](LuaFunctionDoc_InfopanelObj.md.html) 
+* [InfopanelObj](LuaFunctionDoc_InfopanelObj.md) 
 * InitDone
 * Modifiable
 * NightLightObject
-* [Object](LuaFunctionDoc_Object.md.html) 
-* [PinnableObject](LuaFunctionDoc_PinnableObject.md.html) 
+* [Object](LuaFunctionDoc_Object.md) 
+* [PinnableObject](LuaFunctionDoc_PinnableObject.md) 
 * PropertyObject
 * Renamable
-* [RequiresMaintenance](LuaFunctionDoc_RequiresMaintenance.md.html) 
-* [Shapeshifter](LuaFunctionDoc_Shapeshifter.md.html) 
-* [SkinChangeable](LuaFunctionDoc_SkinChangeable.md.html) 
+* [RequiresMaintenance](LuaFunctionDoc_RequiresMaintenance.md) 
+* [Shapeshifter](LuaFunctionDoc_Shapeshifter.md) 
+* [SkinChangeable](LuaFunctionDoc_SkinChangeable.md) 
 * SyncObject
-* [TaskRequester](LuaFunctionDoc_TaskRequester.md.html) 
-* [UpgradableBuilding](LuaFunctionDoc_UpgradableBuilding.md.html) 
+* [TaskRequester](LuaFunctionDoc_TaskRequester.md) 
+* [UpgradableBuilding](LuaFunctionDoc_UpgradableBuilding.md) 
 * WaypointsObj
 ## Class properties
 
@@ -861,7 +861,7 @@ Buildings can have up to three upgrades aquired and applied throughout the game 
 
 
 
-(insert footer.md.html here)
+(insert footer.md here)
 <!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style>
 <script src="markdeep.min.js"></script>
 <script src="https://casual-effects.com/markdeep/latest/markdeep.min.js"></script>

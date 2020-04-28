@@ -1,4 +1,4 @@
-[*Back to Index*](index.md.html)
+[*Back to Index*](index.md)
 Entity
 ======
 
@@ -123,7 +123,7 @@ BaseColor
 : The albedo for diffuse surfaces, or the specular color for glossy surfaces. On UVChannel_1. If the *BaseColor* texture contains alpha channel, the option *Use Alpha Test*  under *Haemimont Material* in *Material* tab, should be checked.
 
 Colorization
-: Texture used for colorizing buildings. See the [Colony Colorization Scheme](ModItemColonyColorScheme.md.html) page for details.
+: Texture used for colorizing buildings. See the [Colony Colorization Scheme](ModItemColonyColorScheme.md) page for details.
 
 Normal
 : Normal map. On UVChannel_1.
@@ -144,7 +144,7 @@ Dust
 
 
 
-(insert footer.md.html here)
+(insert footer.md here)
 <!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style>
 <script src="markdeep.min.js"></script>
 <script src="https://casual-effects.com/markdeep/latest/markdeep.min.js"></script>

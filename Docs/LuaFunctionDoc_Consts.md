@@ -3,7 +3,7 @@
 ## Overview
 
 Consts is a class container for modifiable game constants. g_Consts is its global instance used to access the const values.<br>
-Reference: [GameValue](ModItemGameValue.md.html)<br>
+Reference: [GameValue](ModItemGameValue.md)<br>
 ## Parent classes
 
 * InitDone
@@ -553,7 +553,7 @@ Reference: [GameValue](ModItemGameValue.md.html)<br>
 ## Overview
 
 Consts is a class container for modifiable game constants. g_Consts is its global instance used to access the const values.<br>
-Reference: [GameValue](ModItemGameValue.md.html)<br>
+Reference: [GameValue](ModItemGameValue.md)<br>
 ## Parent classes
 
 * InitDone
@@ -1103,7 +1103,7 @@ Reference: [GameValue](ModItemGameValue.md.html)<br>
 
 
 
-(insert footer.md.html here)
+(insert footer.md here)
 <!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style>
 <script src="markdeep.min.js"></script>
 <script src="https://casual-effects.com/markdeep/latest/markdeep.min.js"></script>

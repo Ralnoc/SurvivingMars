@@ -5,12 +5,12 @@
 class overview...<br>
 ## Parent classes
 
-* [CObject](LuaFunctionDoc_CObject.md.html) 
+* [CObject](LuaFunctionDoc_CObject.md) 
 * ColorizableObject
 * FXObject
 * Holder
 * InitDone
-* [Object](LuaFunctionDoc_Object.md.html) 
+* [Object](LuaFunctionDoc_Object.md) 
 * PropertyObject
 * SyncObject
 * WaypointsObj
@@ -37,7 +37,7 @@ _returns_ string/nil
 
 ## GetWorkNotPermittedReason
 
-Returns the reason the building is not permitted to work. For example if the user turned it off with the infopanel button this func will return "TurnedOff". This is an [auto resolve](LuaClasses.md.html#toc1.3) method. This needs to be implemented for building classes that have unique reasons for not working.<br>
+Returns the reason the building is not permitted to work. For example if the user turned it off with the infopanel button this func will return "TurnedOff". This is an [auto resolve](LuaClasses.md#toc1.3) method. This needs to be implemented for building classes that have unique reasons for not working.<br>
 <br>
 
 string/nil **GetWorkNotPermittedReason**()
@@ -47,7 +47,7 @@ _returns_ string/nil
 
 ## GetWorkNotPossibleReason
 
-Returns a reason which makes it impossible (in terms of game rules) for the building to work. For example if the building requires workers but has none "NotEnoughWorkers" should be returned. This is an [auto resolve](LuaClasses.md.html#toc1.3) method. This needs to be implemented for building classes that have unique reasons for not working.<br>
+Returns a reason which makes it impossible (in terms of game rules) for the building to work. For example if the building requires workers but has none "NotEnoughWorkers" should be returned. This is an [auto resolve](LuaClasses.md#toc1.3) method. This needs to be implemented for building classes that have unique reasons for not working.<br>
 <br>
 
 string/nil **GetWorkNotPossibleReason**()
@@ -77,7 +77,7 @@ _returns_ bool
 
 ## OnSetWorking
 
-Building event called when the working state of a building changes. This is an [auto resolve](LuaClasses.md.html#toc1.3) method.<br>
+Building event called when the working state of a building changes. This is an [auto resolve](LuaClasses.md#toc1.3) method.<br>
 <br>
 
 void **OnSetWorking**(bool working)
@@ -108,7 +108,7 @@ bool expected_state
 
 
 
-(insert footer.md.html here)
+(insert footer.md here)
 <!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style>
 <script src="markdeep.min.js"></script>
 <script src="https://casual-effects.com/markdeep/latest/markdeep.min.js"></script>

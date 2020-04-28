@@ -1,4 +1,4 @@
-[*Back to Index*](index.md.html)
+[*Back to Index*](index.md)
 
 ActionFX
 ===============
@@ -79,22 +79,22 @@ Mod Items
 ===============
 Below is a list of subclasses of ActionFX, which have been implemented as mod items and can be used to trigger various visual and sound effects. Example usage of these can be found in the Cemetery sample mod.
 
-[ActionFXSound](ModItemActionFXSound.md.html)
+[ActionFXSound](ModItemActionFXSound.md)
 : Plays sound effects when an FX action is played.
 
-[ActionFXColorization](ModItemActionFXColorization.md.html)
+[ActionFXColorization](ModItemActionFXColorization.md)
 : Colorizes a target object when an FX action is played.
 
-[ActionFXDecal](ModItemActionFXDecal.md.html)
+[ActionFXDecal](ModItemActionFXDecal.md)
 : Places a decal when an FX action is played.
 
-[ActionFXObject](ModItemActionFXObject.md.html)
+[ActionFXObject](ModItemActionFXObject.md)
 : Places an object when an FX action is played.
 
-[ActionFXLight](ModItemActionFXLight.md.html)
+[ActionFXLight](ModItemActionFXLight.md)
 : Places light sources when an FX action is played.
 
-[ActionFXParticles](ModItemActionFXParticles.md.html)
+[ActionFXParticles](ModItemActionFXParticles.md)
 : Places particle systems when an FX action is played.
 
 Testing Mod Items
@@ -105,7 +105,7 @@ When clicking on the "Test" button for the ActionFX mod items in the Mod Editor,
 
 If you need to call the function with different arguments, use the console.
 
-(insert footer.md.html here)
+(insert footer.md here)
 <!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style>
 <script src="markdeep.min.js"></script>
 <script src="https://casual-effects.com/markdeep/latest/markdeep.min.js"></script>

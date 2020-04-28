@@ -1,8 +1,8 @@
-[*Back to Index*](index.md.html)
+[*Back to Index*](index.md)
 
 Particle System
 ==================
-Defines new particle systems, which can be placed using [ActionFXParticles](ModItemActionFXParticles.md.html).
+Defines new particle systems, which can be placed using [ActionFXParticles](ModItemActionFXParticles.md).
 Particle systems consist of a list of particle behaviors. These behaviors define what particles are spawned, how they act and what their lifetimes are.
 
 Properties
@@ -82,7 +82,7 @@ Note that this image needs to be square and its dimensions have to be a power of
 Importing will convert the image to a format usable by the game and will also create a fallback texture for it.
 Keeping the original image file and the Particle Texture mod item in the completed mod when publishing it is not necessary.
 
-(insert footer.md.html here)
+(insert footer.md here)
 <!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style>
 <script src="markdeep.min.js"></script>
 <script src="https://casual-effects.com/markdeep/latest/markdeep.min.js"></script>

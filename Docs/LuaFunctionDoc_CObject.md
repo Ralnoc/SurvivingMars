@@ -4,7 +4,7 @@
 
 CObjects are objects, accessible to Lua, which have a counterpart in the C++ side of the engine.<br>
 They do not have allocated memory in the Lua side, and therefore cannot store any information.<br>
-Reference: [CObject](LuaCObject.md.html)<br>
+Reference: [CObject](LuaCObject.md)<br>
 ## Parent classes
 
 * ColorizableObject
@@ -1203,7 +1203,7 @@ _returns_ bool
 
 
 
-(insert footer.md.html here)
+(insert footer.md here)
 <!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style>
 <script src="markdeep.min.js"></script>
 <script src="https://casual-effects.com/markdeep/latest/markdeep.min.js"></script>

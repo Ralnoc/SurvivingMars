@@ -1,8 +1,8 @@
-[*Back to Index*](index.md.html)
+[*Back to Index*](index.md)
 Technology
 ===============
 
-This mod item allows you to define a new technology that can be researched to affect the game. [Here](LuaFunctionDoc_Gameplay.md.html) can be found some useful functions for creating gameplay effects. Information about existing technologies can be found [here](LuaFunctionDoc_TechnologyNames.md.html).
+This mod item allows you to define a new technology that can be researched to affect the game. [Here](LuaFunctionDoc_Gameplay.md) can be found some useful functions for creating gameplay effects. Information about existing technologies can be found [here](LuaFunctionDoc_TechnologyNames.md).
 
 Properties
 ----------
@@ -82,7 +82,7 @@ TechTree
 : Array of all tech fields. Each tech field objects array part is a list of all techs in that field.
 
 
-(insert footer.md.html here)
+(insert footer.md here)
 <!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style>
 <script src="markdeep.min.js"></script>
 <script src="https://casual-effects.com/markdeep/latest/markdeep.min.js"></script>

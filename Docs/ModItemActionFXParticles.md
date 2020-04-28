@@ -1,8 +1,8 @@
-[*Back to Index*](index.md.html)
+[*Back to Index*](index.md)
 
 ActionFXParticles
 ==================
-This mod item creates and places particle systems when an FX action is triggered. Inherits [ActionFX](ActionFX.md.html).
+This mod item creates and places particle systems when an FX action is triggered. Inherits [ActionFX](ActionFX.md).
 
 Properties
 ------------------
@@ -57,7 +57,7 @@ OrientationAxis
 FollowTick
 : The time interval (in ms) for setting the particles' position when following an object.
 
-(insert footer.md.html here)
+(insert footer.md here)
 <!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style>
 <script src="markdeep.min.js"></script>
 <script src="https://casual-effects.com/markdeep/latest/markdeep.min.js"></script>

@@ -1,4 +1,4 @@
-[*Back to Index*](index.md.html)
+[*Back to Index*](index.md)
 Labels
 ======
 
@@ -63,7 +63,7 @@ In addition to the ones listed above, every building exists in a label named aft
 
 On top of all that, custom labels per building type may be set in the building editor. All buildings of this type will exist in their custom labels. The OutsideBuildings label is a custom label.
 
-Construction sites are somewhat special as they exist in all labels that their building would end up in and an additional set of labels that end with the "_Construction" suffix. So, for example, an OutsideBuildings construction site would be in both the OutsideBuildings label and OutsideBuildings_Construction label. The main purpose of the second set of labels is to properly modify construction costs of those buildings. Note that them being in both labels means that setting up [modifiers](ModItemGameValue.md.html) in both would affect them twice.
+Construction sites are somewhat special as they exist in all labels that their building would end up in and an additional set of labels that end with the "_Construction" suffix. So, for example, an OutsideBuildings construction site would be in both the OutsideBuildings label and OutsideBuildings_Construction label. The main purpose of the second set of labels is to properly modify construction costs of those buildings. Note that them being in both labels means that setting up [modifiers](ModItemGameValue.md) in both would affect them twice.
 
 Dome Labels
 -----------
@@ -87,12 +87,12 @@ Less numerous then their city cousins, these labels exist on per dome basis. So 
  
  When a building provides a specific service, it adds itself in "interest" + ServiceName labels. For example, the playground provides the Playing service, so all playgrounds in a dome can be found in the interestPlaying dome label.
  
- All colonists exist in labels named after their [traits](ModItemTrait.md.html). E.g., all colonists with the [trait](ModItemTrait.md.html) Coward can be found in the Coward dome label.
+ All colonists exist in labels named after their [traits](ModItemTrait.md). E.g., all colonists with the [trait](ModItemTrait.md) Coward can be found in the Coward dome label.
  
 Label Modifiers
 ---------------
 
-Label [modifiers](ModItemGameValue.md.html) are, in fact, regular [modifiers](ModItemGameValue.md.html), composed of an amount and percent parts which are applied to the base value of a modifiable value along with all other [modifiers](ModItemGameValue.md.html) affecting it. The amount part is applied as is, while the percent part is a fraction of the base, where 10 means 10% and so on. Label [modifiers](ModItemGameValue.md.html) work together with regular [modifiers](ModItemGameValue.md.html) as expected - they will be applied together. Label [modifiers](ModItemGameValue.md.html) affect all objects in a label array and can be applied through the LabelContainer interface. So, for instance, if you'd like to boost the performance of all buildings in a dome you'd need to do this:
+Label [modifiers](ModItemGameValue.md) are, in fact, regular [modifiers](ModItemGameValue.md), composed of an amount and percent parts which are applied to the base value of a modifiable value along with all other [modifiers](ModItemGameValue.md) affecting it. The amount part is applied as is, while the percent part is a fraction of the base, where 10 means 10% and so on. Label [modifiers](ModItemGameValue.md) work together with regular [modifiers](ModItemGameValue.md) as expected - they will be applied together. Label [modifiers](ModItemGameValue.md) affect all objects in a label array and can be applied through the LabelContainer interface. So, for instance, if you'd like to boost the performance of all buildings in a dome you'd need to do this:
 
 ~~~~~~~~~ Lua
 	local m = LabelModifier:new{
@@ -117,7 +117,7 @@ Calling SetLabelModifier with an id but without an actual modifier will remove t
 
 Once added/removed, all objects in the label will be immediately affected. All objects that are added to the label afterwards will automatically receive the modification as well, while objects removed from it will have the modification removed.
 
-(insert footer.md.html here)
+(insert footer.md here)
 <!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style>
 <script src="markdeep.min.js"></script>
 <script src="https://casual-effects.com/markdeep/latest/markdeep.min.js"></script>

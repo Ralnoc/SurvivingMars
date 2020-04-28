@@ -1,9 +1,9 @@
-[*Back to Index*](index.md.html)
+[*Back to Index*](index.md)
 
 Sound
 ===============
 
-This mod item allows you to create sound presets, which are used to play sound effects via ActionFXSound. You can read more about the ActionFXSound mod item [here](ModItemActionFXSound.md.html). Each sound preset consists of a list of samples. These samples contain the path to the sound file (in the opus file format) and a frequency. When the sound is played, a sample is picked at random based on the given sample frequencies. Samples with higher frequency values will be played more often than the ones with lower values.
+This mod item allows you to create sound presets, which are used to play sound effects via ActionFXSound. You can read more about the ActionFXSound mod item [here](ModItemActionFXSound.md). Each sound preset consists of a list of samples. These samples contain the path to the sound file (in the opus file format) and a frequency. When the sound is played, a sample is picked at random based on the given sample frequencies. Samples with higher frequency values will be played more often than the ones with lower values.
 
 Properties
 ---------------
@@ -77,7 +77,7 @@ restricted
 mindistance
 : No attenuation below that distance (in meters). In case of zero the sound group mindistance is used.
 
-(insert footer.md.html here)
+(insert footer.md here)
 <!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style>
 <script src="markdeep.min.js"></script>
 <script src="https://casual-effects.com/markdeep/latest/markdeep.min.js"></script>

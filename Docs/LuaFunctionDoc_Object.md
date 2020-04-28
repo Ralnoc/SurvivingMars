@@ -5,7 +5,7 @@
 Object are CObject that have also allocated Lua memory and thus can participate in more sophisticated game logic instead of just being vizualized.<br>
 ## Parent classes
 
-* [CObject](LuaFunctionDoc_CObject.md.html) 
+* [CObject](LuaFunctionDoc_CObject.md) 
 * ColorizableObject
 * FXObject
 * InitDone
@@ -32,7 +32,7 @@ void **Object:Init**()
 
 
 
-(insert footer.md.html here)
+(insert footer.md here)
 <!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style>
 <script src="markdeep.min.js"></script>
 <script src="https://casual-effects.com/markdeep/latest/markdeep.min.js"></script>

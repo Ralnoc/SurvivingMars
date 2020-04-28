@@ -1,4 +1,4 @@
-[*Back to Index*](index.md.html)
+[*Back to Index*](index.md)
 Terrain Grids
 =============
 The terrain in **Surviving Mars** is represented by two raster grids - type grid and height grid.
@@ -188,7 +188,7 @@ Forces a recalculation of the typemap in the specified area.
 
 
 
-(insert footer.md.html here)
+(insert footer.md here)
 <!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style>
 <script src="markdeep.min.js"></script>
 <script src="https://casual-effects.com/markdeep/latest/markdeep.min.js"></script>

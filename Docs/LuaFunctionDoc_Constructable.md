@@ -5,11 +5,11 @@
 holds common props for objects that are constructable through the regular construction pipeline<br>
 ## Parent classes
 
-* [CObject](LuaFunctionDoc_CObject.md.html) 
+* [CObject](LuaFunctionDoc_CObject.md) 
 * ColorizableObject
 * FXObject
 * InitDone
-* [Object](LuaFunctionDoc_Object.md.html) 
+* [Object](LuaFunctionDoc_Object.md) 
 * PropertyObject
 * SyncObject
 ## Class properties
@@ -143,7 +143,7 @@ holds common props for objects that are constructable through the regular constr
 
 
 
-(insert footer.md.html here)
+(insert footer.md here)
 <!-- Markdeep: --><style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style>
 <script src="markdeep.min.js"></script>
 <script src="https://casual-effects.com/markdeep/latest/markdeep.min.js"></script>

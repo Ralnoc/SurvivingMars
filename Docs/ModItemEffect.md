@@ -1,7 +1,7 @@
-[*Back to Index*](index.md.html)
+[*Back to Index*](index.md)
 # Effects
 
-Effects are a powerful tool for implementing gameplay effects for Mission Sponsors, Commander Profiles or Game Rules mod items. They can also be used to modify the game unconditionally whenever the mod is loaded, when placed in a [Global Effects](ModItemGlobalEffects.md.html) mod item. Some of them make use of [global consts](LuaFunctionDoc_Consts.md.html) to influence the gameplay.
+Effects are a powerful tool for implementing gameplay effects for Mission Sponsors, Commander Profiles or Game Rules mod items. They can also be used to modify the game unconditionally whenever the mod is loaded, when placed in a [Global Effects](ModItemGlobalEffects.md) mod item. Some of them make use of [global consts](LuaFunctionDoc_Consts.md) to influence the gameplay.
 
 ## Code Effects
 The two functions supplied here are called at game start and the desired game logic can be put into either one of them. They are however called at different times and therefore suitable for different types of logic. This should be taken into careful consideration when deciding on the most appropriate one. When unsure about which function to use, *OnApplyEffect()* is the safer choice. 
